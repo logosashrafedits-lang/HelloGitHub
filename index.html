@@ -2,7 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Achraf Portfolio</title>
+  <title>Portfolio - Achraf Chiheb</title>
 
   <style>
     body {
@@ -16,21 +16,35 @@
 
     header {
       background: #1e293b;
-      padding: 30px;
+      padding: 40px 20px;
     }
 
-    h1 {
+    header h1 {
       color: #38bdf8;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      color: #f1f5f9;
+    }
+
+    img.profile {
+      width: 150px;
+      border-radius: 50%;
+      margin: 20px 0;
+      border: 3px solid #38bdf8;
+    }
+
+    section {
+      padding: 30px 20px;
+      max-width: 800px;
+      margin: auto;
     }
 
     h2 {
       color: #facc15;
-    }
-
-    section {
-      padding: 20px;
-      max-width: 800px;
-      margin: auto;
+      margin-bottom: 15px;
     }
 
     p {
@@ -39,9 +53,24 @@
 
     .card {
       background: #1e293b;
-      margin: 20px;
+      margin: 20px 0;
       padding: 20px;
       border-radius: 10px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      color: white;
+      background: #38bdf8;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #0ea5e9;
     }
   </style>
 </head>
@@ -49,26 +78,34 @@
 <body>
 
   <header>
-    <h1>Bonjour, je suis Achraf 👋</h1>
-    <p>Développeur débutant passionné par la programmation</p>
+    <h1>Achraf Chiheb 👋</h1>
+    <p>Développeur débutant passionné par la programmation et les projets open source</p>
+    <img src="https://via.placeholder.com/150" alt="Achraf Chiheb" class="profile">
   </header>
 
   <section class="card">
     <h2>About Me</h2>
     <p>
-      Je m'appelle Achraf Chiheb, développeur débutant basé au Maroc.
-      Je suis passionné par l’apprentissage de l’informatique et la création de projets open source.
+      Je suis un développeur débutant basé au Maroc, passionné par l’apprentissage de l’informatique
+      et la création de projets open source.
     </p>
     <p>
-      J’apprends HTML, CSS, Python et Scratch pour améliorer mes compétences.
+      J’apprends HTML, CSS, Python et Scratch pour créer des projets utiles et améliorer mes compétences.
     </p>
   </section>
 
   <section class="card">
     <h2>Objectif</h2>
     <p>
-      Mon objectif est de devenir développeur professionnel et travailler en freelance.
+      Mon objectif est de devenir développeur professionnel et travailler en freelance sur des plateformes comme Upwork.
     </p>
+  </section>
+
+  <section class="card">
+    <h2>Contact</h2>
+    <a href="mailto:logosashrafedits@gmail.com" class="btn">Envoyer un Email</a>
+    <a href="https://github.com/logosashrafedits-lang" target="_blank" class="btn">Mon GitHub</a>
+    <a href="https://www.upwork.com/freelancers/~logosashrafedits" target="_blank" class="btn">Mon Upwork</a>
   </section>
 
 </body>
